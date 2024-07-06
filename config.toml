@@ -1,0 +1,58 @@
+# baseURL = "https://your_domain.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Lynx"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Dani"
+  headline = "A Life Lived Fully"
+  image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    # { github = { href = "https://github.com/jpanther/lynx", text = "GitHub Project" } },  # Example advanced link
+    # { github = "https://github.com" },  # Example simple link
+
+    
+    { bookmark = { href = "https://alifelivedfully.com/", text = "ALifeLivedFully.com" } },
+    #{ amazon = "amazon" },
+    { dollar = { href = "https://cash.app/$ALifeLivedFully", text = "CashApp" } },
+    #{ dev = "dev" },
+    #{ discord = "discord" },
+    #{ play = { href = "https://d.tube", text = "DTube" } },
+    #{ email = "email" },
+    { facebook = "https://www.facebook.com/ALifeLivedFully" },
+    { github = "https://github.com/ALifeLivedFully" },
+    #{ gitlab = "gitlab" },
+    { instagram = "https://www.instagram.com/alifelivedfully/" },
+    { keybase = "https://keybase.io/alifelivedfully" },
+    { coffee = { href = "https://ko-fi.com/ALifeLivedFully", text = "Ko-Fi" } },
+    { dollar = { href = "https://liberapay.com/ALifeLivedFully", text = "Libera Pay" } },
+    #{ linkedin = "linkedin" },
+    #{ mastodon = "mastodon" },
+    #{ medium = "medium" },
+    #{ astronaut = { href = "odyssey", text = "Odyssey" } },
+    { patreon = "https://patreon.com/ALifeLivedFully" },
+    { paypal = { href = "https://paypal.me/ALifeLivedFully", text = "PayPal" } },
+    #{ pinterest = "pinterest" },
+    #{ reddit = "reddit" },
+    #{ snapchat = "snapchat" },
+    #{ steam = "steam" },
+    #{ hurricane = { href = "https://steemit.com", text = "Steemit" } },
+    #{ telegram = "telegram" },
+    { tiktok = "https://www.tiktok.com/@ALifeLivedFully" },
+    #{ tumblr = "tumblr" },
+    #{ twitch = "twitch" },
+    { twitter = "https://twitter.com/ALifeLivedFully" },
+    { dollar = { href = "https://venmo.com/ALifeLivedFully", text = "Venmo" } },
+    { youtube = "https://www.youtube.com/@ALifeLivedFully" }
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
